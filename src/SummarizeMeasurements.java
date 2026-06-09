@@ -28,6 +28,7 @@ public class SummarizeMeasurements {
         double average = sum / values.size();
 
         System.out.println("読み込んだCSV: " + csvPath);
+        System.out.println("確認観点: 条件ごとの測定値の違いを研究メモに記録する。");
         System.out.println("測定データの要約");
         System.out.println("件数: " + values.size());
         System.out.printf("平均値: %.2f%n", average);
